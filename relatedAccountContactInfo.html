@@ -1,0 +1,13 @@
+<template>
+    <br/>
+    <lightning-card title="Related Accounts">
+        <lightning-datatable data={accounts} columns={accountColumns} key-field="Id" hide-checkbox-column=true>
+        </lightning-datatable>
+    </lightning-card>
+    <br/>
+    <lightning-card title="Related Contacts">
+        <lightning-datatable data={contacts} columns={contactColumns} key-field="Id" hide-checkbox-column=true>
+        </lightning-datatable>
+    </lightning-card>
+    <br/>
+</template>
